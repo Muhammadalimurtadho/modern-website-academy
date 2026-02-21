@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Academy - Beranda</title>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <img
+            src="assets/images/logo.png"
+            alt="Academy Logo"
+            onerror="
+              this.src = 'https://placehold.co/120x40/2563eb/white?text=Academy'
+            "
+          />
+        </a>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="active">Beranda</a></li>
+          <li><a href="courses.html">Kursus</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="login.html" class="btn-login">Masuk</a></li>
+          <li>
+            <button class="dark-mode-toggle" id="darkModeToggle">
+              <!-- Icon Dark Mode (SVG) -->
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+              </svg>
+            </button>
+          </li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1>Tingkatkan Karirmu dengan <span>Pembelajaran Hybrid</span></h1>
+          <p>
+            Gabungkan fleksibilitas online dan interaksi offline. Dapatkan akses
+            ke 100+ kursus dari mentor ahli.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Jelajahi Kursus</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="assets/images/hero.jpg"
+            alt="Hero"
+            onerror="
+              this.src =
+                'https://placehold.co/600x400/2563eb/white?text=Hero+Image'
+            "
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Program Unggulan -->
+    <section class="programs">
+      <div class="container">
+        <h2 class="section-title">Program Unggulan</h2>
+        <div class="program-grid">
+          <div class="program-card">
+            <!-- Icon Program (SVG) -->
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2563eb"
+              stroke-width="1.5"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="2.5" />
+              <path d="M8 8h8M8 12h6M8 16h4" />
+            </svg>
+            <h3>Full Stack Web</h3>
+            <p>
+              Kuasai pengembangan web dari frontend hingga backend dengan proyek
+              nyata.
+            </p>
+          </div>
+          <div class="program-card">
+            <!-- Icon Program -->
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2563eb"
+              stroke-width="1.5"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+            <h3>Data Science</h3>
+            <p>
+              Pelajari analisis data, machine learning, dan visualisasi dengan
+              Python.
+            </p>
+          </div>
+          <div class="program-card">
+            <!-- Icon Program -->
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="#2563eb"
+              stroke-width="1.5"
+            >
+              <path
+                d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
+              />
+            </svg>
+            <h3>UI/UX Design</h3>
+            <p>
+              Rancang pengalaman pengguna yang menarik dengan tools terkini.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Metode Pengajaran (3 step) -->
+    <section class="teaching">
+      <div class="container">
+        <h2 class="section-title">Metode Pengajaran</h2>
+        <div class="step-grid">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Belajar Mandiri</h3>
+            <p>Akses video, modul, dan kuis kapan saja secara online.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Sesi Live</h3>
+            <p>Kelas interaktif dengan mentor melalui zoom setiap minggu.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Proyek & Portofolio</h3>
+            <p>Terapkan ilmu dalam proyek nyata dan bangun portofolio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tentang Kami -->
+    <section id="tentang" class="about">
+      <div class="container about-container">
+        <div class="about-image">
+          <img
+            src="assets/images/about.jpg"
+            alt="About"
+            onerror="
+              this.src =
+                'https://placehold.co/500x400/2563eb/white?text=About+Us'
+            "
+          />
+        </div>
+        <div class="about-content">
+          <h2>Tentang Kami</h2>
+          <p>
+            Academy hadir untuk menjembatani kesenjangan antara pendidikan
+            formal dan kebutuhan industri. Dengan pendekatan hybrid, kami
+            memberikan fleksibilitas belajar online tanpa meninggalkan sentuhan
+            personal melalui sesi tatap muka virtual dan offline.
+          </p>
+          <p>
+            Didukung oleh mentor berpengalaman dan kurikulum terkini, kami telah
+            membantu 10.000+ siswa meraih karir impian.
+          </p>
+          <a href="#" class="btn btn-secondary">Pelajari Lebih Lanjut</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimoni -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">Apa Kata Mereka</h2>
+        <div class="testimonial-grid">
+          <div class="testimonial-card">
+            <p>
+              "Kursusnya sangat terstruktur dan mentornya responsif. Berkat
+              Academy, saya berhasil pindah karir jadi web developer."
+            </p>
+            <h4>— Andi Pratama</h4>
+            <span>Alumni Full Stack</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "Metode hybrid sangat cocok untuk saya yang bekerja. Bisa belajar
+              kapan saja, tetap ada sesi langsung untuk tanya jawab."
+            </p>
+            <h4>— Siti Nurhaliza</h4>
+            <span>Data Analyst</span>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              "Portofolio yang saya buat selama kursus langsung dilirik
+              recruiter. Sekarang kerja di startup fintech."
+            </p>
+            <h4>— Rizky Fauzan</h4>
+            <span>UI/UX Designer</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tim Instruktur -->
+    <section class="instructors">
+      <div class="container">
+        <h2 class="section-title">Tim Instruktur</h2>
+        <div class="instructor-grid">
+          <div class="instructor-card">
+            <img
+              src="assets/images/instructor/john.jpg"
+              alt="Instructor"
+              onerror="
+                this.src = 'https://placehold.co/200x200/2563eb/white?text=John'
+              "
+            />
+            <h3>John Doe</h3>
+            <p>Lead Web Developer</p>
+          </div>
+          <div class="instructor-card">
+            <img
+              src="assets/images/instructor/michael.jpg"
+              alt="Instructor"
+              onerror="
+                this.src = 'https://placehold.co/200x200/2563eb/white?text=Jane'
+              "
+            />
+            <h3>Jane Smith</h3>
+            <p>Data Scientist</p>
+          </div>
+          <div class="instructor-card">
+            <img
+              src="assets/images/instructor/jane.jpg"
+              alt="Instructor"
+              onerror="
+                this.src =
+                  'https://placehold.co/200x200/2563eb/white?text=Michael'
+              "
+            />
+            <h3>Michael Chen</h3>
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion -->
+    <section class="faq">
+      <div class="container">
+        <h2 class="section-title">Pertanyaan Umum</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Bagaimana sistem belajar hybrid? <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Anda bisa mengakses materi online kapan saja (video, modul,
+                tugas) dan mengikuti sesi live bersama mentor setiap minggu
+                secara virtual atau tatap muka (tergantung program).
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Apakah ada sertifikat? <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Ya, Anda akan mendapatkan sertifikat kelulusan yang dapat
+                diunduh setelah menyelesaikan semua persyaratan kursus.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              Bagaimana cara mendaftar? <span class="icon">+</span>
+            </button>
+            <div class="accordion-content">
+              <p>
+                Klik tombol "Jelajahi Kursus", pilih kursus yang diinginkan,
+                lalu klik Enroll dan ikuti proses pembayaran.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak">
+      <div class="container footer-container">
+        <div class="footer-about">
+          <img
+            src="assets/images/logo.png"
+            alt="Logo"
+            onerror="
+              this.src = 'https://placehold.co/120x40/2563eb/white?text=Academy'
+            "
+          />
+          <p>
+            Membangun masa depan melalui pendidikan hybrid yang berkualitas.
+          </p>
+        </div>
+        <div class="footer-links">
+          <h4>Perusahaan</h4>
+          <ul>
+            <li><a href="#">Tentang</a></li>
+            <li><a href="#">Karir</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Dukungan</h4>
+          <ul>
+            <li><a href="#">Pusat Bantuan</a></li>
+            <li><a href="#">Syarat & Ketentuan</a></li>
+            <li><a href="#">Kebijakan Privasi</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Academy. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
